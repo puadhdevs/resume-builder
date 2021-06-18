@@ -1,0 +1,24 @@
+
+.certificate__first > h3{
+    /* border-bottom: 2px solid;
+    padding-bottom: 6px; */
+       flex: 3;
+}
+
+.certificate__second{
+
+    flex: 3;
+}
+
+.certificate__details{
+        margin-top: 1em;
+            display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    /* margin-bottom: 12px; */
+   
+}
+.certificate__details > p {
+     text-transform: capitalize;
+     margin-bottom: 0;
+}

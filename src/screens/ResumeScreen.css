@@ -1,0 +1,100 @@
+.resumeScreen{
+        background: #FFFFFF;
+    width: 1080px;
+    margin: auto;
+        padding: 10px 20px;
+}
+
+
+.hr{
+        width: 50%;
+    
+    margin-left: 0px;
+    border: 1px solid black;
+}
+
+
+.hr-line{
+    display: flex;
+    align-items: center;
+}
+
+.hr-line-first{
+    border: 1px solid black;
+    flex: .3;
+}
+
+.hr-line-second{
+    border: 1px solid #E4D33A;
+    flex:1;
+}
+
+.objective,.educational,.projects,.certificate,.skills {
+        display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+table{
+    margin-top: 1em;
+}
+
+div > h3{
+    text-transform: capitalize;
+}
+
+p,td{
+        color: #756969;
+}
+
+.objective__first,.projects__first,.certificate__first,.skills__first{
+
+        margin-right: 12rem;
+    flex: .8;
+}
+
+.btn-print{
+        position: absolute !important;
+    top: 13px;
+    z-index: 9999;
+    right: 10px;
+    padding-left: 22px !important;
+}
+@media print {
+
+    @page{
+        size: A4 ;
+        margin:10mm;
+        /* background-color: lightsalmon; */
+
+    }
+    /* border-radius: 0; */
+}
+
+@media screen and (max-width:600px){
+    
+    .btn-print{
+        top:8px;
+        padding-bottom: 5px !important;
+    }
+  .resumeScreen {
+        size: A4 ;
+    background: #FFFFFF;
+    width: 1080px;
+    
+    transform: scale(0.3);
+    
+    transform-origin: left;
+
+  
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: -300px;
+    height: fit-content;
+}
+    .resumeScreen_container{
+        overflow:auto;
+    } 
+
+}

@@ -1,0 +1,21 @@
+h3{
+    width: fit-content;
+}
+
+
+.objective__first > h3{
+    /* border-bottom: 2px solid; */
+    /* padding-bottom: 6px; */
+       flex: 3;
+}
+
+.objective__second{
+
+    flex: 3;
+}
+
+.objective__second >p {
+    /* color:#EEEEEE;   */
+    color:#756969;
+    margin-bottom: 0;
+}

@@ -1,0 +1,44 @@
+
+
+
+.projects__first > h3{
+    /* border-bottom: 2px solid;
+    padding-bottom: 6px; */
+       flex: 3;
+}
+
+.projects__row{
+    display: flex;
+    flex-direction: row;
+        padding-bottom: 8px;
+    }
+
+.projects__row__year{
+    /* margin-right: 8rem; */
+width: 160px;
+     /* flex: .8; */
+    /* background: rgb(136, 135, 135); */
+        font-size: 12px;
+}    
+
+ .projects__row__details >p:first-child{
+         margin-bottom: 4px;
+}
+.projects__row__details >p{
+
+        /* margin-top: -15px; */
+        /* flex:2; */
+        margin-bottom: 0;   
+}
+
+.projects__row__details {
+        flex: 1;
+}
+
+.projects__second{
+    flex: 3;
+}
+
+.projects__course{
+    font-weight:700;
+}

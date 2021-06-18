@@ -1,0 +1,35 @@
+
+
+.skills__first > h3{
+    /* border-bottom: 2px solid;
+    padding-bottom: 6px; */
+       flex: 3;
+}
+
+.skills__row{
+    display: flex;
+    flex-direction: row;
+    }
+
+.skills__row__programming{
+      /* flex: 1.8; */
+    font-weight: 700;
+    width: 160px;
+  /* margin-right: 8rem; */
+     /* flex: .8; */
+    /* background: red; */
+}    
+
+.skills__row__details{
+    /* flex: 2; */
+        /* margin-top: -15px; */
+}
+
+
+.skills__second{
+    flex: 3;
+}
+
+.skills__course{
+    font-weight:700;
+}

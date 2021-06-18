@@ -1,0 +1,48 @@
+
+.educational__first{
+        margin-right: 7.4rem;
+}
+.educational__first > h3{
+    /* border-bottom: 2px solid;
+    padding-bottom: 6px; */
+       /* flex: 3; */
+       width:250px;
+}
+
+.educational__row{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+    }
+
+.educational__row__year{
+    /* margin-right: 8rem; */
+width: 160px;
+    /* flex: .8; */
+    /* background: red; */
+}    
+
+.educational__row__details{
+        /* margin-top: -15px; */
+
+        /* flex: 2; */
+}
+
+
+.educational__second{
+    flex: 3;
+}
+
+.educational__course{
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.educational__schoolCollege{
+    text-transform: capitalize;
+        margin-bottom: 0;
+}
+
+.educational__row__details >p:first-child{
+    margin-bottom: 4px;
+}
